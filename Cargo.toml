@@ -13,7 +13,7 @@ license = "MIT"
 exclude = ["/screenshots", "./examples"]
 
 [dependencies]
-fltk = "1.3.17"
+fltk = "^1.3"
 lazy_static = "1.4"
 
 [target.'cfg(target_os = "macos")'.dependencies]
